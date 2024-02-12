@@ -1,0 +1,18 @@
+body {
+  background-color: yellow;
+  margin: 0;
+}
+#header-container {
+  background-color: black;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  width: 80%;
+  margin: auto;
+}
+#logo {
+  width: 15rem;
+}
