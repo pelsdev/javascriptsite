@@ -16,3 +16,47 @@ body {
 #logo {
   width: 15rem;
 }
+a{
+  color: white;
+  margin: 15px;
+}
+button {
+  font-size: 18px;
+      color: yellow;
+      padding: 5px 15px;
+      border: 10px solid black;
+      border-radius: 0px;
+      background-color: black;
+      letter-spacing: 1rem;
+      
+    }
+#cele {
+  margin-top: 10%;
+      margin-bottom: 0.01%;
+      margin-left: 3rem;
+      
+    }
+.history{
+  margin: 0%;
+}
+h1{
+  font-size: 68px;
+}
+h2 {
+  font-size: 44px;
+  
+}
+span{
+  font-style: italic;
+  letter-spacing: -3px;
+  font-family: 'PS Commons Extra Bold';
+}
+small {
+  font-size: 45%;
+  font-family: 'PS Commons';
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  
+}
+ 
+
