@@ -19,6 +19,7 @@ body {
 a{
   color: white;
   margin: 15px;
+  word-break: break-word
 }
 #but {
   font-size: 18px;
@@ -52,7 +53,7 @@ span{
   font-family: 'PS Commons Extra Bold';
 }
 small {
-  font-size: 27px;
+  font-size: 15px;
   font-family: 'PS Commons';
   font-style: italic;
   letter-spacing: 0.1rem;
@@ -66,6 +67,8 @@ h3{
   font-size: 24px;
   letter-spacing: -2px;
   margin-top: 5rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 h4{
   font-size: 1rem;
@@ -84,7 +87,7 @@ input:hover{
     cursor: pointer;
     color: white;
 }
-#butt{
+.butt{
   font-size: 18px;
   color: white;
   padding: 5px 5px;
@@ -93,15 +96,13 @@ input:hover{
   background-color: #ec008c;
   margin-bottom: 6rem
 }
-#butt:hover {
+.butt:hover {
   cursor: pointer;
   color: black;
   filter: blur(1px);
   transition: box-shadow .3s cubic-bezier(0.39, -0.58, 0.43, 1);
 }
-a{
-  word-break: break-word
-}
+
 .demand{
   background-color: black;
   color: #fcdc00;
@@ -109,6 +110,7 @@ a{
   width: 85px;
   height: 85px;
   text-align: left;
+  margin-left: 0.2rem;
 }
 .sess{
   margin-top: 0;
@@ -117,24 +119,62 @@ a{
 h5{
   font-size: 15px;
     line-height: 1.4;
-    font-weight: 250;
-    margin-left: 3rem;
+    font-weight: 100;
+    margin-left: 1rem;
 }
 .watch{
-  margin-left: 10rem;
+  margin-left: 25rem;
   color: white;
   background-color: black;
   padding: 10px 40px;
   line-height: 1.4;
   border: black;
 }
+.watch:hover{
+  cursor: -webkit-grabbing;
+  background-color: white ;
+  color: black;
+}
 .session{
   margin-bottom: 3rem;
 }
 .sideb{
-  border: 5px solid black;
   display: flex;
   justify-content: left;
   flex-direction: column;
 }
-
+.details-section{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8rem;
+}
+.event{
+  border-bottom: 0.5px solid black;
+  margin: 3rem;
+}
+.events{
+  border-bottom: 0.5px solid black;
+  margin: 3rem;
+}
+#strong{
+  text-align: center;
+}
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  width: 80%;
+  margin: auto;
+  text-decoration: none;
+}
+.divide{
+  color: #eee;
+    margin-left: 10px;
+    font-size: 12px;
+}
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
