@@ -1,5 +1,5 @@
 body {
-  background-color: yellow;
+  background-color:#fcdc00;
   margin: 0;
 }
 #header-container {
@@ -20,9 +20,9 @@ a{
   color: white;
   margin: 15px;
 }
-button {
+#but {
   font-size: 18px;
-      color: yellow;
+      color: #fcdc00;
       padding: 5px 15px;
       border: 10px solid black;
       border-radius: 0px;
@@ -76,12 +76,65 @@ h4{
 }
 input{
   padding: 1rem 20rem;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   background-color: black;
 border: black;
 }
 input:hover{
     cursor: pointer;
     color: white;
+}
+#butt{
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+  border: 10px solid #ec008c;
+  border-radius: 0px;
+  background-color: #ec008c;
+  margin-bottom: 6rem
+}
+#butt:hover {
+  cursor: pointer;
+  color: black;
+  filter: blur(1px);
+  transition: box-shadow .3s cubic-bezier(0.39, -0.58, 0.43, 1);
+}
+a{
+  word-break: break-word
+}
+.demand{
+  background-color: black;
+  color: #fcdc00;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  text-align: left;
+}
+.sess{
+  margin-top: 0;
+  display: inline-block;
+}
+h5{
+  font-size: 15px;
+    line-height: 1.4;
+    font-weight: 250;
+    margin-left: 3rem;
+}
+.watch{
+  margin-left: 10rem;
+  color: white;
+  background-color: black;
+  padding: 10px 40px;
+  line-height: 1.4;
+  border: black;
+}
+.session{
+  margin-bottom: 3rem;
+}
+.sideb{
+  border: 5px solid black;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
 }
 
